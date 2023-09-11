@@ -73,7 +73,7 @@ python manage.py migrate
 ```
 python main.py
 ```
-The server should now be running at http://localhost:5000
+The server should now be running at http://localhost:8000
 
 # API Endpoints
 
