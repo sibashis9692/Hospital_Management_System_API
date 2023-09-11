@@ -5,11 +5,11 @@ Hospital Management System is a web-based application built with Django REST fra
 ## Features
 
 - User registration and authentication with JWT tokens.
+- Role-based access control for Doctors and Patients.
 - Differentiate between Doctors and Patients.
 - Manage patient records, including diagnostics, observations, and treatments.
 - Department management with details like diagnostics, location, and specialization.
 - Comprehensive API endpoints for data management.
-- Role-based access control for Doctors and Patients.
 
 ## Requirements
 
