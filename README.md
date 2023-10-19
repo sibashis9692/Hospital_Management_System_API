@@ -1,12 +1,11 @@
 # Hospital Management System
 
-Hospital Management System is a web-based application built with Django REST framework for managing patient records, doctors, and departments in a hospital or healthcare facility.
+Hospital Management System is a web-based application built with Django REST framework for managing patient records, doctors, and departments in a hospital.
 
 ## Features
 
 - User registration and authentication with JWT tokens.
 - Role-based access control for Doctors and Patients.
-- Differentiate between Doctors and Patients.
 - Manage patient records, including diagnostics, observations, and treatments.
 - Department management with details like diagnostics, location, and specialization.
 - Comprehensive API endpoints for data management.
@@ -15,7 +14,7 @@ Hospital Management System is a web-based application built with Django REST fra
 
 Make sure you have the following dependencies installed before running the application:
 
-- Python 3.x
+- Python
 - Django 4.2.5
 - Django REST framework 3.14.0
 - djangorestframework-simplejwt 5.3.0
@@ -30,20 +29,24 @@ pip install -r requirements.txt
 
 ## Installation
 
-1. Clone the Repository:
-```
-git clone https://github.com/sibashis9692/Hospital_Management_System_API.git
-cd Hospital_Management_System_API
-```
-
-2. Create a virtual environment:
+1. Create a virtual environment:
 ```
 python -m venv venv
 ```
 
-3. Activate the virtual environment:
+2. Activate the virtual environment:
 ```
 venv\Scripts\activate
+```
+
+3. Clone the Repository:
+```
+git clone https://github.com/sibashis9692/Hospital_Management_System_API.git
+cd Hospital_Management_System_API
+```
+4. install dependencies:
+```
+pip install -r requirements.txt
 ```
 
 # Database Setup
@@ -66,12 +69,12 @@ DATABASES = {
 ```
 3. Run migrate and migrations:
 ```
-python manage.py migrations
+python manage.py makemigrations
 python manage.py migrate
 ```
 # Running the Application
 ```
-python main.py
+python main.py runserver
 ```
 The server should now be running at http://localhost:8000
 
