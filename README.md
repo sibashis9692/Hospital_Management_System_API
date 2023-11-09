@@ -1,6 +1,6 @@
 # 1. Project's Title
 
-Hospital Management System is a web-based application built with Django REST framework for managing patient records, doctors, and departments in a hospital.
+Hospital_management_system
 
 # 2. Project Description
 
