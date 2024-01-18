@@ -37,7 +37,7 @@ cd Hospital_Management_System_API
 ```
 pip install -r requirements.txt
 ```
-# Database Setup
+## Database Setup
 Before running the application, set up the database as follows:
 
 1. Create a MySQL database for the project.
@@ -60,7 +60,7 @@ DATABASES = {
 python manage.py makemigrations
 python manage.py migrate
 ```
-# Running the Application
+## Running the Application
 ```
 python manage.py runserver
 ```
@@ -70,7 +70,7 @@ The server should now be running at http://localhost:8000
 
 ## Authentication
 
-The Medical Records Management Service API utilizes JSON Web Token (JWT) authentication. Follow the steps below to authenticate using JWT:
+The Hospital_Management_System_API utilizes JSON Web Token (JWT) authentication. Follow the steps below to authenticate using JWT:
 
 ## 1. User Registration:
 To register a new user, make a POST request to the following endpoint:
@@ -134,6 +134,8 @@ Example Response:
 
 Use the access token received in the response for subsequent requests by including it in the request header as follows:
 `Authorization: Bearer YOUR_ACCESS_TOKEN`
+
+Now after Login explore the bellow API Endpoints
 
 ## API Endpoints
 
